@@ -48,7 +48,7 @@ Create a new issue with your query and we will answer you as soon as possible.
 ### Good luck!
 
 
-## Laravel 5.1 - iseekplant test
+## Laravel 5.2.23 - iseekplant test
 
 This is an application developed using Laravel 5.1 PHP framework.
 
