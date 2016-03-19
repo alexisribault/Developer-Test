@@ -88,6 +88,6 @@ QUEUE_DRIVER=sync
 
 The following features are included in this version:
 
-* Display list of messages
-* Add a new message
-* Delete a message
+* Display the best available rate for each room type over the coming 21 days
+* Display when the above best rate is for
+* Display the overall best availale rate for the hotel - including the date and the room type
