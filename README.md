@@ -65,7 +65,7 @@ Please follow the steps to install laravel.
 
 That's it! You are now ready to use the application.
 
-Browse the application: http://localhost/sniip/public
+Browse the application: http://localhost/Developer-Test/public
 
 ## .env example file
 ```
