@@ -71,16 +71,16 @@ Browse the application: http://localhost/Developer-Test/public
 ```
 APP_ENV=local
 APP_DEBUG=true
-APP_KEY=qjSYrMd0xzGWH9UBdas0KPSNxbWzUjx1
-
-DB_HOST=localhost
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
+APP_KEY=SomeRandomString
+APP_URL=http://localhost
 
 CACHE_DRIVER=file
 SESSION_DRIVER=file
 QUEUE_DRIVER=sync
+
+API_BASE_SITE_URL=https://app-apac.thebookingbutton.com
+API_CHANNEL_CODE=camhotsyddirect
+API_FORMAT=.json
 
 ```
 
