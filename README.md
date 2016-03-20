@@ -1,3 +1,48 @@
+
+## Laravel 5.2.23 - iseekplant test
+
+This is an application developed using Laravel 5.1 PHP framework.
+
+## Install
+
+Please follow the steps to install laravel.
+
+* cd /your/webroot/path/Developer-Test
+* git clone https://github.com/alexisribault/Developer-Test
+* Update the packages composer update (assuming composer is installed to /usr/local/bin)
+* Change database credentials in the .env file (example given below)
+* Run the command to install migration php artisan migrate:install
+* Create all the required tables: php artisan migrate
+
+That's it! You are now ready to use the application.
+
+Browse the application: http://localhost/Developer-Test/public
+
+## .env example file
+```
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=SomeRandomString
+APP_URL=http://localhost
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+API_BASE_SITE_URL=https://app-apac.thebookingbutton.com
+API_CHANNEL_CODE=camhotsyddirect
+API_FORMAT=.json
+
+```
+
+##Version 1.0
+
+The following features are included in this version:
+
+* Display the best available rate for each room type over the coming 21 days
+* Display when the above best rate is for
+* Display the overall best availale rate for the hotel - including the date and the room type
+
 # Developer Test
 
 ### Overview
@@ -46,48 +91,3 @@ If you attempt any of these, make a note in your README file.
 Create a new issue with your query and we will answer you as soon as possible.
 
 ### Good luck!
-
-
-## Laravel 5.2.23 - iseekplant test
-
-This is an application developed using Laravel 5.1 PHP framework.
-
-## Install
-
-Please follow the steps to install laravel.
-
-* cd /your/webroot/path/Developer-Test
-* git clone https://github.com/alexisribault/Developer-Test
-* Update the packages composer update (assuming composer is installed to /usr/local/bin)
-* Change database credentials in the .env file (example given below)
-* Run the command to install migration php artisan migrate:install
-* Create all the required tables: php artisan migrate
-
-That's it! You are now ready to use the application.
-
-Browse the application: http://localhost/Developer-Test/public
-
-## .env example file
-```
-APP_ENV=local
-APP_DEBUG=true
-APP_KEY=SomeRandomString
-APP_URL=http://localhost
-
-CACHE_DRIVER=file
-SESSION_DRIVER=file
-QUEUE_DRIVER=sync
-
-API_BASE_SITE_URL=https://app-apac.thebookingbutton.com
-API_CHANNEL_CODE=camhotsyddirect
-API_FORMAT=.json
-
-```
-
-##Version 1.0
-
-The following features are included in this version:
-
-* Display the best available rate for each room type over the coming 21 days
-* Display when the above best rate is for
-* Display the overall best availale rate for the hotel - including the date and the room type
