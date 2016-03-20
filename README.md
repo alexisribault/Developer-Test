@@ -41,6 +41,14 @@ The following features are included in this version:
 * Display when the above best rate is for
 * Display the overall best availale rate for the hotel - including the date and the room type
 
+##Extra Credit
+* Expand the search window to capture the best rate over the next **60 days**. It is not possible to capture the best rate over the next 60 days as the API only provide information for the next 28 days of the start date given at the url: https://help.thebookingbutton.com/hc/en-us/articles/203326314-TheBookingButton-Rates-API
+```
+The date range is limited to the first 28 days from the start date.
+
+```
+* Sorry I did not have enough time to complete this last exercise, let me know if I need to complete it
+
 # Developer Test
 
 ### Overview
