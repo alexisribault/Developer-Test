@@ -9,10 +9,8 @@ Please follow the steps to install laravel.
 
 * cd /your/webroot/path/Developer-Test
 * git clone https://github.com/alexisribault/Developer-Test
-* Update the packages composer update (assuming composer is installed to /usr/local/bin)
-* Change database credentials in the .env file (example given below)
-* Run the command to install migration php artisan migrate:install
-* Create all the required tables: php artisan migrate
+* Update the packages running composer install (assuming composer is installed to /usr/local/bin)
+* Update the .env file with the file example given below
 
 That's it! You are now ready to use the application.
 
