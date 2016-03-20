@@ -1,7 +1,7 @@
 
 ## Laravel 5.2.23 - iseekplant test
 
-This is an application developed using Laravel 5.1 PHP framework.
+This is an application developed using Laravel 5.2.23 PHP framework.
 
 ## Install
 
